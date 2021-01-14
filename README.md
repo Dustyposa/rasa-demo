@@ -1,5 +1,16 @@
+
 # Sara - the Rasa Demo Bot
 [![Build Status](https://travis-ci.com/RasaHQ/rasa-demo.svg?branch=master)](https://travis-ci.com/RasaHQ/rasa-demo)
+
+## 语音助手的实现
+教程请参考 [rasa语音助手的实现](https://dustyposa.github.io/posts/d7e97916/)
+
+
+### 额外文件结构介绍
+- utils/voice_connector.py  # 自定义channel
+- components/deepspeech.py  # stt 模块
+- components/tts.py  # tts 模块
+- credentials.yml  # rasa run 的配置文件
 
 ## :surfer: Introduction
 The purpose of this repo is to showcase a contextual AI assistant built with the open source Rasa framework.
